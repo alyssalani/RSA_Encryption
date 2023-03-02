@@ -16,15 +16,12 @@ class RSA:
         qBase10 = self.toBase10(s2, self.baseAlphabet)
 
         if pBase10 >= 10**200:
-
             p = pBase10 % 10**200
-            
         else:
             print("String 1 Not Long Enough")
-
+            
         if qBase10 >= 10**200:
             q = qBase10 % 10**200
-            
         else:
             print("String 2 Not Long Enough")
 
